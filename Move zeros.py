@@ -5,7 +5,7 @@ def movezeros(nums):
             nums[i], nums[j] = nums[j], nums[i]
             i += 1
     return nums
-print(movezeros([0,1,0,3,12]))
+print(movezeros([14,0,1,0,3,12]))
 
 # two pointer i and j
 # I will increase i if and only if swaping nums[j] and nums[i] and will only swap when nums[j] not zero
